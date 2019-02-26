@@ -15,3 +15,10 @@
 * from previous task to validate user input.
 ===================================================
 """
+
+def converter():
+    kilometers = eval(input("Enter the number of kilometers: "))
+    miles = kilometers*0.62137
+    print("The number you entered is equal to ",miles," miles.")
+
+converter()
